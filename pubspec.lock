@@ -81,27 +81,27 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_vk_sdk:
+  flutter_vk_login:
     dependency: "direct dev"
     description:
-      name: flutter_vk_sdk
+      name: flutter_vk_login
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.0+3"
+    version: "0.0.2"
   http:
     dependency: "direct dev"
     description:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.2"
+    version: "0.13.3"
   http_parser:
     dependency: transitive
     description:
       name: http_parser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.1.4"
+    version: "4.0.0"
   matcher:
     dependency: transitive
     description:

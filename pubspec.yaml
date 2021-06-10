@@ -33,7 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   http:
-  flutter_vk_sdk:
+  flutter_vk_login:
   bloc:
   flutter_bloc:
 

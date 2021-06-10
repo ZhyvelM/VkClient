@@ -1,17 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_vk_sdk/flutter_vk_sdk.dart';
+import 'package:flutter_vk_login/flutter_vk_login.dart';
 import 'package:vkontakte/cubit/auth_cubit.dart';
 import 'package:vkontakte/screens/Auth.dart';
 import 'package:vkontakte/screens/Client.dart';
 
-void main() {
-  initVKSdk();
-  runApp(MaterialApp(home: MyApp()));
-}
+import 'util.dart' as util;
 
-initVKSdk() {
-  return FlutterVKSdk.init(appId: '7875023');
+void main() {
+  util.vkSignIn = new FlutterVkLogin();
+  runApp(MaterialApp(home: MyApp()));
 }
 
 class MyApp extends StatelessWidget {

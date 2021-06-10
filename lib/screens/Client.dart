@@ -27,6 +27,18 @@ class _ClientWidgetState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("FlutterVKClient"),
+        backgroundColor: Colors.blue,
+        actions: [
+          TextButton(
+              onPressed: () {},
+              child: Icon(
+                Icons.logout,
+                color: Colors.white,
+              ))
+        ],
+      ),
       body: screens.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: [
