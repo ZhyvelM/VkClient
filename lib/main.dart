@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_vk_login/flutter_vk_login.dart';
-import 'package:vkontakte/cubit/auth_cubit.dart';
-import 'package:vkontakte/screens/Auth.dart';
-import 'package:vkontakte/screens/Client.dart';
+import 'package:vkontakte/pages/main_window/Auth.dart';
+import 'package:vkontakte/pages/main_window/Client/Client.dart';
 
+import 'pages/main_window/cubit/auth_cubit.dart';
 import 'util.dart' as util;
 
 void main() {
