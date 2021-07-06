@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:vkontakte/model/ProfileModel.dart';
 import 'package:vkontakte/model/User.dart';
+import 'package:vkontakte/model/screens/ProfileModel.dart';
 import 'package:vkontakte/pages/main_window/Client/widgets/UserMini.dart';
 import 'package:vkontakte/util.dart' as util;
 

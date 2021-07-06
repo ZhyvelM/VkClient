@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:vkontakte/model/ProfileModel.dart';
 import 'package:vkontakte/model/User.dart';
+import 'package:vkontakte/model/screens/ProfileModel.dart';
 import 'package:vkontakte/pages/main_window/Client/Profile/profile_cubit/profile_cubit.dart';
 import 'package:vkontakte/util.dart' as util;
 
@@ -42,8 +42,7 @@ class Header extends StatelessWidget {
                     Text("${snapshot.data.status}"),
                     ElevatedButton(
                         onPressed: () {
-                          final profileCubit =
-                              BlocProvider.of<ProfileCubit>(inContext);
+                          final profileCubit = BlocProvider.of<ProfileCubit>(inContext);
                           profileCubit.toEdit();
                         },
                         child: Text("Edit"))

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:vkontakte/model/User.dart';
 
 class UserMini extends StatelessWidget {
-  User user;
+  final User user;
 
   UserMini({@required this.user});
 
