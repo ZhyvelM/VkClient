@@ -22,7 +22,9 @@ class ProfileModel {
     return await profileService.getStatus(id);
   }
 
-  void setStatus(String text) {}
+  void setStatus(String text) {
+    profileService.setStatus(text);
+  }
 }
 
 ProfileModel profileModel = ProfileModel();

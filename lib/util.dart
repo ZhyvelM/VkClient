@@ -6,9 +6,9 @@ int clientId = 7875023;
 String accessToken;
 FlutterVkLogin vkSignIn;
 
-void init(String userID, String accessToken) {
+void init(String userID, String access_token) {
   userId = userID;
-  accessToken = accessToken;
+  accessToken = access_token;
 }
 
 void showPhoto(BuildContext context, String url) {
